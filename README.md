@@ -1,6 +1,6 @@
-# 🎧 Alkitab Audio Indonesia — TB ver. Davar
+# 🎧 Alkitab Audio Indonesia
 
-Koleksi file audio Alkitab Terjemahan Baru (TB) versi **Davar** dalam format MP3, bersumber dari **[AUDIO.SABDA.ORG](https://audio.sabda.org/bible.php?v=tb_davar)** — platform audio Alkitab dari Yayasan Lembaga SABDA (YLSA).
+Koleksi file audio Alkitab dalam **Bahasa Indonesia** dan **Bahasa Daerah (Jawa)** dengan berbagai varian versi (**TB ver. Davar**, **Audio AI**, dan **Bahasa Jawa**) dalam format **MP3** dan **AMR**, bersumber dari **[AUDIO.SABDA.ORG](https://audio.sabda.org/)** — platform audio Alkitab dari Yayasan Lembaga SABDA (YLSA).
 
 > *"Jadi, iman timbul dari pendengaran, dan pendengaran oleh firman Kristus."*
 > — **Roma 10:17**
@@ -9,18 +9,18 @@ Koleksi file audio Alkitab Terjemahan Baru (TB) versi **Davar** dalam format MP3
 
 ## 📌 Tentang Proyek
 
-Repositori ini menyimpan koleksi lengkap audio Alkitab dalam Bahasa Indonesia (**Terjemahan Baru / TB**) versi **Davar**, yang terdiri dari:
+Repositori ini mengarsipkan audio Alkitab yang diorganisasikan ke dalam beberapa **branch terpisah** berdasarkan versi rekaman dan format audio:
 
-| Bagian | Jumlah Kitab | Jumlah Pasal (file MP3) |
-|---|---|---|
-| Perjanjian Lama (PL) | 35 kitab | 817 pasal |
-| Perjanjian Baru (PB) | 27 kitab | 260 pasal |
-| **Total** | **62 kitab** | **1.077 file MP3** |
+| Versi Rekaman | Bahasa | Branch Tersedia | Jumlah Kitab | Jumlah File Audio |
+|---|---|---|---|---|
+| **Alkitab TB ver. Davar** | Indonesia (TB) | [`Davar-MP3`](https://github.com/renpwn/Alkitab-Audio-Indonesia/tree/Davar-MP3) *(default)*, [`Davar-AMR`](https://github.com/renpwn/Alkitab-Audio-Indonesia/tree/Davar-AMR) | 62 kitab (35 PL + 27 PB) | 1.077 file |
+| **Alkitab Bahasa Jawa** | Bahasa Jawa | [`Jawa-MP3`](https://github.com/renpwn/Alkitab-Audio-Indonesia/tree/Jawa-MP3), [`Jawa-AMR`](https://github.com/renpwn/Alkitab-Audio-Indonesia/tree/Jawa-AMR) | 62 kitab (35 PL + 27 PB) | 1.077 file |
+| **Alkitab Audio AI** | Indonesia (AYT) | [`AI-MP3`](https://github.com/renpwn/Alkitab-Audio-Indonesia/tree/AI-MP3), [`AI-AMR`](https://github.com/renpwn/Alkitab-Audio-Indonesia/tree/AI-AMR) | **66 kitab lengkap** (39 PL + 27 PB) | 1.189 file |
 
 ### Sumber Audio
-- 🌐 Situs: [audio.sabda.org](https://audio.sabda.org/bible.php?v=tb_davar)
-- 📖 Versi: Alkitab Terjemahan Baru (TB) — ver. Davar
+- 🌐 Portal: [audio.sabda.org](https://audio.sabda.org/)
 - 🏢 Penyedia: [Yayasan Lembaga SABDA (YLSA)](https://ylsa.org)
+- 📻 Format Tersedia: `.mp3` (MP3) & `.amr` (AMR)
 
 ---
 
@@ -45,8 +45,8 @@ Nama branch terdiri dari dua bagian: **`[Versi/Bahasa]-[Format]`**
 
 ```
    Davar    -    MP3
-     │            └─ Format audio: MP3 (kualitas tinggi) atau AMR (ukuran ringkas)
-     └────────────── Versi atau bahasa Alkitab
+     │            └─ Format audio: MP3 (kualitas jernih) atau AMR (kompresi hemat kuota)
+     └────────────── Versi teks atau bahasa rekaman Alkitab
 ```
 
 | Kode | Keterangan |
@@ -63,12 +63,12 @@ Nama branch terdiri dari dua bagian: **`[Versi/Bahasa]-[Format]`**
 
 | Aspek | Branch `Davar-MP3` / `Davar-AMR` | Branch `Jawa-MP3` / `Jawa-AMR` | Branch `AI-MP3` / `AI-AMR` |
 |---|---|---|---|
-| **Bahasa** | Bahasa Indonesia (TB) | Bahasa Jawa | Bahasa Indonesia (AI) |
+| **Bahasa** | Bahasa Indonesia (TB) | Bahasa Jawa (*Basa Jawa*) | Bahasa Indonesia (AYT / AI) |
 | **Versi SABDA** | `tb_davar` | `tb_jawa` | `ai_davar` |
-| **Jumlah Kitab PL** | 35 kitab | 35 kitab | 39 kitab (Lengkap) |
-| **Kitab PL yang Tidak Ada** | 1 & 2 Raja-raja, 1 & 2 Tawarikh | 1 & 2 Raja-raja, 1 & 2 Tawarikh | *Tidak ada (Semua lengkap)* |
+| **Jumlah Kitab PL** | 35 kitab | 35 kitab | **39 kitab (Lengkap)** |
+| **Kitab PL yang Tidak Ada** | 1 & 2 Raja-raja, 1 & 2 Tawarikh | 1 & 2 Raja-raja, 1 & 2 Tawarikh | *Tidak ada (Semua 39 kitab lengkap)* |
 | **Jumlah Kitab PB** | 27 kitab (Lengkap) | 27 kitab (Lengkap) | 27 kitab (Lengkap) |
-| **Total Kitab** | 62 kitab | 62 kitab | 66 kitab |
+| **Total Kitab** | 62 kitab | 62 kitab | **66 kitab (Lengkap)** |
 | **Total File Audio** | 1.077 file (817 PL + 260 PB) | 1.077 file (817 PL + 260 PB) | 1.189 file (929 PL + 260 PB) |
 | **Format File** | `.mp3` (MP3) / `.amr` (AMR) | `.mp3` (MP3) / `.amr` (AMR) | `.mp3` (MP3) / `.amr` (AMR) |
 
@@ -82,17 +82,17 @@ Nama branch terdiri dari dua bagian: **`[Versi/Bahasa]-[Format]`**
 
 ---
 
-## 📡 Tentang AUDIO.SABDA.ORG & Versi TB Davar
+## 📡 Tentang AUDIO.SABDA.ORG & Penjelasan Versi Audio
 
-**[AUDIO.SABDA.ORG](https://audio.sabda.org/)** adalah portal audio Alkitab dari Yayasan Lembaga SABDA (YLSA) yang menyediakan berbagai versi dan bahasa Alkitab dalam format audio.
+**[AUDIO.SABDA.ORG](https://audio.sabda.org/)** adalah situs resmi dari Yayasan Lembaga SABDA (YLSA) yang menyediakan ragam versi dan bahasa Alkitab Perjanjian Baru dan Perjanjian Lama dalam format audio.
 
 ### Versi yang tersedia di situs SABDA (sebagian):
 
-| Kode URL (`?v=`) | Nama Versi | Keterangan |
+| Kode URL (`?v=`) | Nama Versi di SABDA | Keterangan di Repositori Ini |
 |---|---|---|
-| `tb_davar` | **Alkitab TB ver. Davar** | Rekaman narasi TB Indonesia *(branch `Davar-MP3` & `Davar-AMR`)* |
-| `tb_jawa` | **Alkitab Bahasa Jawa** | Rekaman Alkitab Bahasa Jawa *(branch `Jawa-MP3` & `Jawa-AMR`)* |
-| `ai_davar` | **Alkitab Yang Terbuka 'Audio AI'** | Rekaman lengkap 66 kitab *(branch `AI-MP3` & `AI-AMR`)* |
+| `tb_davar` | **Alkitab TB ver. Davar** | Branch [`Davar-MP3`](https://github.com/renpwn/Alkitab-Audio-Indonesia/tree/Davar-MP3) & [`Davar-AMR`](https://github.com/renpwn/Alkitab-Audio-Indonesia/tree/Davar-AMR) |
+| `tb_jawa` | **Alkitab Bahasa Jawa** | Branch [`Jawa-MP3`](https://github.com/renpwn/Alkitab-Audio-Indonesia/tree/Jawa-MP3) & [`Jawa-AMR`](https://github.com/renpwn/Alkitab-Audio-Indonesia/tree/Jawa-AMR) |
+| `ai_davar` | **Alkitab Yang Terbuka 'Audio AI'** | Branch [`AI-MP3`](https://github.com/renpwn/Alkitab-Audio-Indonesia/tree/AI-MP3) & [`AI-AMR`](https://github.com/renpwn/Alkitab-Audio-Indonesia/tree/AI-AMR) |
 | `tb_alkitabsuara` | Alkitab TB 'Alkitab Suara' | Superdrama Alkitab Terjemahan Baru |
 | `tb` | Alkitab TB Drama | Drama Alkitab Terjemahan Baru |
 | `tb_otnt` | Alkitab TB Non Drama | Non Drama Alkitab Terjemahan Baru |
@@ -100,9 +100,27 @@ Nama branch terdiri dari dua bagian: **`[Versi/Bahasa]-[Format]`**
 | `amd-ai` | Alkitab Mudah Dibaca 'Audio AI' | Versi AMD narasi AI |
 | `avb` | Alkitab Versi Borneo | Bahasa Melayu Borneo |
 
-### Apa itu "ver. Davar"?
+---
 
-**Davar** (דָּבָר) adalah kata dalam bahasa Ibrani yang berarti *"Firman"* atau *"Kata"*. Versi ini adalah rekaman audio Alkitab Terjemahan Baru (TB) dengan pembacaan narasi tunggal (non-drama) yang diproduksi secara terstruktur oleh YLSA/SABDA.
+### 📖 Penjelasan Versi yang Tersedia di Repositori:
+
+#### 1. Versi TB Davar (`Davar-MP3` / `Davar-AMR`)
+- **Arti Nama**: **Davar** (דָּבָר) adalah kata bahasa Ibrani yang berarti *"Firman"* atau *"Kata"*.
+- **Teks**: Alkitab Terjemahan Baru (TB) edisi resmi LAI.
+- **Karakteristik Audio**: Pembacaan teks secara narasi tunggal (non-drama), lugas, dan terstruktur.
+- **Cakupan**: Memuat 35 Kitab PL dan 27 Kitab PB (total 62 kitab / 1.077 pasal). Kitab 1–2 Raja-raja dan 1–2 Tawarikh tidak disertakan dalam versi ini.
+
+#### 2. Versi Audio AI / Alkitab Yang Terbuka (`AI-MP3` / `AI-AMR`)
+- **Arti Nama**: **Audio AI** bersumber dari teks *Alkitab Yang Terbuka* (AYT) dengan teknologi narasi audio modern/AI dari SABDA.
+- **Teks**: Alkitab Yang Terbuka (AYT) — terjemahan setia, akurat, dan mudah dipahami.
+- **Karakteristik Audio**: Suara narasi yang konsisten dan jelas di seluruh pasal.
+- **Cakupan**: **Lengkap 66 Kitab** (39 Kitab PL + 27 Kitab PB / 1.189 pasal), termasuk kitab 1 & 2 Raja-raja serta 1 & 2 Tawarikh.
+
+#### 3. Versi Bahasa Jawa (`Jawa-MP3` / `Jawa-AMR`)
+- **Arti Nama**: Audio Alkitab dalam bahasa daerah nusantara yaitu **Bahasa Jawa** (*Basa Jawa*).
+- **Teks**: Terjemahan Alkitab Basa Jawa yang diterbitkan untuk penutur bahasa Jawa.
+- **Karakteristik Audio**: Pembacaan Alkitab penutur asli Bahasa Jawa dengan intonasi dan pelafalan bahasa Jawa yang fasih.
+- **Cakupan**: Memuat 35 Kitab PL dan 27 Kitab PB (total 62 kitab / 1.077 pasal), sejajar dengan struktur versi Davar.
 
 ---
 
@@ -304,25 +322,28 @@ Setiap file audio mengikuti pola penamaan yang konsisten:
 
 ## 🔗 Tautan Langsung Sumber
 
-Setiap kitab dapat diakses langsung dari situs AUDIO.SABDA.ORG dengan format URL berikut:
+Setiap kitab pada masing-masing versi dapat diakses langsung dari situs AUDIO.SABDA.ORG dengan format URL berikut:
 
 ```
-https://audio.sabda.org/bible.php?v=tb_davar&b={kode_kitab}
+https://audio.sabda.org/bible.php?v={kode_versi}&b={kode_kitab}
 ```
 
-**Contoh:**
-- [Kejadian](https://audio.sabda.org/bible.php?v=tb_davar&b=kej) → `...&b=kej`
-- [Mazmur](https://audio.sabda.org/bible.php?v=tb_davar&b=mzm) → `...&b=mzm`
-- [Matius](https://audio.sabda.org/bible.php?v=tb_davar&b=mat) → `...&b=mat`
-- [Wahyu](https://audio.sabda.org/bible.php?v=tb_davar&b=why) → `...&b=why`
+**Contoh Akses per Versi:**
+- **Versi TB Davar**: [Kejadian](https://audio.sabda.org/bible.php?v=tb_davar&b=kej) (`v=tb_davar&b=kej`), [Matius](https://audio.sabda.org/bible.php?v=tb_davar&b=mat) (`v=tb_davar&b=mat`)
+- **Versi AI (Alkitab Yang Terbuka)**: [Kejadian](https://audio.sabda.org/bible.php?v=ai_davar&b=kej) (`v=ai_davar&b=kej`), [1 Raja-raja](https://audio.sabda.org/bible.php?v=ai_davar&b=1raj) (`v=ai_davar&b=1raj`)
+- **Versi Bahasa Jawa**: [Kejadian (Purwaning Dumadi)](https://audio.sabda.org/bible.php?v=tb_jawa&b=kej) (`v=tb_jawa&b=kej`), [Matius](https://audio.sabda.org/bible.php?v=tb_jawa&b=mat) (`v=tb_jawa&b=mat`)
 
 ---
 
 ## 📋 Catatan Tambahan
 
-- Penomoran folder kitab PL melewati nomor **11–14** (kitab Raja-raja & Tawarikh tidak tersedia dalam koleksi ini).
-- Semua file dalam format **MP3** dan siap diputar pada perangkat apa pun.
-- Audio ini cocok digunakan untuk program mendengar Alkitab: **40 hari**, **60 hari**, maupun **90 hari**.
+- **Perbedaan Kelengkapan Kitab**:
+  - Pada branch **`Davar-MP3`**, **`Davar-AMR`**, **`Jawa-MP3`**, dan **`Jawa-AMR`**, penomoran folder PL melewati nomor **11–14** (kitab Raja-raja & Tawarikh tidak tersedia dalam rekaman versi ini).
+  - Pada branch **`AI-MP3`** dan **`AI-AMR`**, seluruh **66 kitab (39 PL + 27 PB)** tersedia secara lengkap.
+- **Dukungan Format**:
+  - Format `.mp3` direkomendasikan untuk kualitas audio jernih dan kompatibilitas pemutar musik universal.
+  - Format `.amr` direkomendasikan untuk perangkat seluler atau penggunaan hemat ruang/kuota.
+- **Rencana Mendengar**: Audio ini cocok digunakan untuk program pendengaran Alkitab SABDA: **40 hari**, **60 hari**, maupun **90 hari**.
 
 ---
 
